@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+flask = "==0.12.2"
+requests = "==2.18.4"
+pylint = "*"
+
+[requires]
+python_version = "3.7"
